@@ -1,14 +1,14 @@
 # λ calculus interpreter
 A simple lambda-calculus interpreter, with properly implemented mute variables.
 ## instructions
-build with dune :
+Build with dune :
 ```
 dune build ./lambda.exe
 dune exec -- ./lambda.exe [optionnal files to load, e.g. std.lambda]
 (λ.x.λy.x) y x
 --> y
 ```
-declare with colon :
+Declare with colon :
 ```
 M : λf.f f
 --> M : λf.f f
@@ -25,7 +25,7 @@ false : λx.y.y
 /x.y.z
 --> λx.λy.z
 ```
-use quotes for sentences :
+Use quotes for sentences :
 ```
 "This makes for handy comments !"
 --> "This makes for handy comments !"

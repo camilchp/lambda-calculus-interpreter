@@ -8,4 +8,5 @@ and : λb1.b2.b1 b2 false
 or : λb1.b2.b1 true b2
 if : λi.t.e.i t e
 
+"(id true a b) should return (a)"
 id true a b
