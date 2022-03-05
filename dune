@@ -1,0 +1,6 @@
+(executable
+    (name lambda)
+    (libraries lib))
+
+(ocamllex lexer)
+(ocamlyacc parser)
